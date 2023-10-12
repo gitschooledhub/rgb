@@ -1,0 +1,73 @@
+html {
+  background-color: grey;
+}
+
+body {
+  background-color: white;
+  text-align: center;
+  margin: 20px auto;
+  width: 500px;
+  padding: 25px 80px;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+hr {
+  width: 500px;
+}
+
+.rgb-code {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+input {
+  width: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+#redIn {
+  background: red;
+}
+
+#greenIn {
+  background: rgb(12, 202, 12);
+}
+
+#blueIn {
+  background: blue;
+}
+
+#display {
+  width: 400px;
+  height: 200px;
+  background: rgb(255, 255, 0);
+  margin: auto;
+}
+
+button {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(71, 42, 201);
+  text-decoration: underline;
+}
